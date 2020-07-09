@@ -92,7 +92,6 @@ namespace _04_Loops
             while (false);
 
 
-
             Console.ReadKey();
         }
     }

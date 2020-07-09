@@ -11,7 +11,7 @@ namespace _03_IfElseStatements
         static void Main(string[] args)
         {
             bool userIsHungry = true;
-            if(userIsHungry)
+            if (userIsHungry)
             {
                 Console.WriteLine("Eat Something!");
             }
@@ -35,14 +35,14 @@ namespace _03_IfElseStatements
             string input = Console.ReadLine();
             int totalHours = int.Parse(input);
 
-            if(totalHours >= 8)
+            if (totalHours >= 8)
             {
                 Console.WriteLine("Congrats. You are a tired parent!");
             }
             else
             {
                 Console.WriteLine("Get off Reddit and go to bed!");
-                if(totalHours < 3)
+                if (totalHours < 3)
                 {
                     Console.WriteLine("That's rough, buddy");
                 }
@@ -52,7 +52,7 @@ namespace _03_IfElseStatements
             string ageInput = Console.ReadLine();
             int age = Convert.ToInt32(ageInput);
 
-            if(age > 17)
+            if (age > 17)
             {
                 Console.WriteLine("Congrats on being an adult :(");
             }
@@ -60,7 +60,7 @@ namespace _03_IfElseStatements
             {
                 if (age > 6)
                 {
-                    Console.WriteLine("Have fun in school!")
+                    Console.WriteLine("Have fun in school!");
                 }
                 else if (age > 0)
                 {
@@ -72,7 +72,7 @@ namespace _03_IfElseStatements
                 }
             }
 
-            if(age >65 || age < 18)
+            if (age > 65 || age < 18)
             {
                 Console.WriteLine("You likely relaxin, fam");
             }

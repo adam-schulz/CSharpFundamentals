@@ -18,7 +18,7 @@ namespace _03_Ternaries
             int numTwo = (numOne == 10) ? 30 : 40;
 
             int hoursAsleep = 4;
-            string outcome = (hoursAsleep >= 8) ? "Congrats" : "Sorry about you"
+            string outcome = (hoursAsleep >= 8) ? "Congrats" : "Sorry about you";
         }
     }
 }

@@ -27,7 +27,7 @@ namespace _03_SwitchCases
             DayOfWeek today = DateTime.Today.DayOfWeek;
             switch (today)
             {
-                case DayOfWeek.Monday;
+                
                 case DayOfWeek.Tuesday:
                 case DayOfWeek.Wednesday:
                 case DayOfWeek.Thursday:
@@ -38,6 +38,8 @@ namespace _03_SwitchCases
                 case DayOfWeek.Sunday:
                     Console.WriteLine("Sorry we are closed");
                     break;
+
+                  
             }
 
 
